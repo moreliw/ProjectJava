@@ -31,4 +31,16 @@ public class Calculator {
     public int SomarNumeros(int numA, int numB){
         return (numA + numB);
     }
+    
+    public int SubtrairNumeros(int numA, int numB){
+        return (numA - numB);
+    }
+    
+    public int MultiplicarNumeros(int numA, int numB){
+        return (numA * numB);
+    }
+    
+    public int DividirNumeros(int numA, int numB){
+        return (numA / numB);
+    }
 }
