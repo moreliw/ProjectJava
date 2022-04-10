@@ -9,38 +9,38 @@ package Classes;
  * @author William Moreli
  */
 public class Calculator {
-    private int numeroA;
-    private int numeroB;
+    private double numeroA;
+    private double numeroB;
     
-    public int getNumeroA() {
+    public double getNumeroA() {
         return numeroA;
     }
 
-    public void setNumeroA(int numeroA) {
+    public void setNumeroA(double numeroA) {
         this.numeroA = numeroA;
     }
 
-    public int getNumeroB() {
+    public double getNumeroB() {
         return numeroB;
     }
 
-    public void setNumeroB(int numeroB) {
+    public void setNumeroB(double numeroB) {
         this.numeroB = numeroB;
     }
 
-    public int SomarNumeros(int numA, int numB){
+    public double SomarNumeros(double numA, double numB){
         return (numA + numB);
     }
     
-    public int SubtrairNumeros(int numA, int numB){
+    public double SubtrairNumeros(double numA, double numB){
         return (numA - numB);
     }
     
-    public int MultiplicarNumeros(int numA, int numB){
+    public double MultiplicarNumeros(double numA, double numB){
         return (numA * numB);
     }
     
-    public int DividirNumeros(int numA, int numB){
+    public double DividirNumeros(double numA, double numB){
         return (numA / numB);
     }
 }
